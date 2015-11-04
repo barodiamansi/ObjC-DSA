@@ -7,48 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SinglyLinkedList.h"
+#import "SinglyLinkedListController.h"
+#import "DoublyLinkedListController.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        NSLog(@"%@", @"### Executing singly linked list operations ###");
+        [SinglyLinkedListController controllerForSinglyLinkedList];
         
-        // Run for singly linked list.
-        SinglyLinkedList *linkedList = [[SinglyLinkedList alloc] init];
-        NSUInteger count = 0;
-        
-        [linkedList insertInLinkedListWithHead:NULL andData:@"Mansi" atPosition:1];
-        [linkedList traverseLinkedListWithHead:linkedList.head];
-        
-        [linkedList insertInLinkedListWithHead:linkedList.head andData:@"Hello World" atPosition:2];
-        count = [linkedList countLinkedListWithHead:linkedList.head];
-        
-        NSLog(@"%lu", (unsigned long)count);
-        
-        [linkedList insertInLinkedListWithHead:linkedList.head andData:@"Mario" atPosition:3];
-        [linkedList insertInLinkedListWithHead:linkedList.head andData:@"Greetings" atPosition:1];
-        
-        count = [linkedList countLinkedListWithHead:linkedList.head];
-        NSLog(@"%lu", (unsigned long)count);
-        
-        [linkedList traverseLinkedListWithHead:linkedList.head];
-        
-        [linkedList insertInLinkedListWithHead:linkedList.head andData:@"2015" atPosition:2];
-        [linkedList traverseLinkedListWithHead:linkedList.head];
-        
-        NSLog(@"%hhd", [linkedList searchInLinkedListWithHead:linkedList.head forData:@"Mario"]);
-        NSLog(@"%hhd", [linkedList searchInLinkedListWithHead:linkedList.head forData:@"Luigi"]);
-        
-        count = [linkedList countLinkedListWithHead:linkedList.head];
-        NSLog(@"%lu", (unsigned long)count);
-        
-        [linkedList deleteNodeFromLinkedListWithHead:linkedList.head inPosition:1];
-        [linkedList traverseLinkedListWithHead:linkedList.head];
-        
-        [linkedList deleteNodeFromLinkedListWithHead:linkedList.head inPosition:[linkedList countLinkedListWithHead:linkedList.head]];
-        [linkedList traverseLinkedListWithHead:linkedList.head];
-        
-        [linkedList deleteNodeFromLinkedListWithHead:linkedList.head inPosition:2];
-        [linkedList traverseLinkedListWithHead:linkedList.head];
+        NSLog(@"%@", @"### Executing doubly linked list operations ###");
+        [DoublyLinkedListController controllerForDoublyLinkedList];
     }
+    
     return 0;
 }

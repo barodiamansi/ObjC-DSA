@@ -10,6 +10,10 @@
 		7512BA461BE991C9007D89B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512BA451BE991C9007D89B9 /* main.m */; };
 		7512BA521BE99216007D89B9 /* LLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512BA4D1BE99216007D89B9 /* LLNode.m */; };
 		7512BA541BE99216007D89B9 /* SinglyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512BA511BE99216007D89B9 /* SinglyLinkedList.m */; };
+		75FDAF121BE99CDD00A9C4FE /* DoubleLLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FDAF111BE99CDD00A9C4FE /* DoubleLLNode.m */; };
+		75FDAF151BE99CEC00A9C4FE /* DoublyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FDAF141BE99CEC00A9C4FE /* DoublyLinkedList.m */; };
+		75FDAF181BE9A9E000A9C4FE /* SinglyLinkedListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FDAF171BE9A9E000A9C4FE /* SinglyLinkedListController.m */; };
+		75FDAF1B1BE9AB8400A9C4FE /* DoublyLinkedListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FDAF1A1BE9AB8400A9C4FE /* DoublyLinkedListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,14 @@
 		7512BA4D1BE99216007D89B9 /* LLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNode.m; sourceTree = SOURCE_ROOT; };
 		7512BA501BE99216007D89B9 /* SinglyLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglyLinkedList.h; sourceTree = SOURCE_ROOT; };
 		7512BA511BE99216007D89B9 /* SinglyLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglyLinkedList.m; sourceTree = SOURCE_ROOT; };
+		75FDAF101BE99CDD00A9C4FE /* DoubleLLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleLLNode.h; sourceTree = "<group>"; };
+		75FDAF111BE99CDD00A9C4FE /* DoubleLLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleLLNode.m; sourceTree = "<group>"; };
+		75FDAF131BE99CEC00A9C4FE /* DoublyLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoublyLinkedList.h; sourceTree = "<group>"; };
+		75FDAF141BE99CEC00A9C4FE /* DoublyLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoublyLinkedList.m; sourceTree = "<group>"; };
+		75FDAF161BE9A9E000A9C4FE /* SinglyLinkedListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglyLinkedListController.h; sourceTree = "<group>"; };
+		75FDAF171BE9A9E000A9C4FE /* SinglyLinkedListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglyLinkedListController.m; sourceTree = "<group>"; };
+		75FDAF191BE9AB8400A9C4FE /* DoublyLinkedListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoublyLinkedListController.h; sourceTree = "<group>"; };
+		75FDAF1A1BE9AB8400A9C4FE /* DoublyLinkedListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoublyLinkedListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +75,37 @@
 		7512BA441BE991C9007D89B9 /* ObjC-DSA */ = {
 			isa = PBXGroup;
 			children = (
+				75FDAF0F1BE99CC000A9C4FE /* DoubleLinkedList */,
+				75FDAF0E1BE99CA600A9C4FE /* SingleLinkedList */,
+				7512BA451BE991C9007D89B9 /* main.m */,
+			);
+			path = "ObjC-DSA";
+			sourceTree = "<group>";
+		};
+		75FDAF0E1BE99CA600A9C4FE /* SingleLinkedList */ = {
+			isa = PBXGroup;
+			children = (
 				7512BA4C1BE99216007D89B9 /* LLNode.h */,
 				7512BA4D1BE99216007D89B9 /* LLNode.m */,
 				7512BA501BE99216007D89B9 /* SinglyLinkedList.h */,
 				7512BA511BE99216007D89B9 /* SinglyLinkedList.m */,
-				7512BA451BE991C9007D89B9 /* main.m */,
+				75FDAF161BE9A9E000A9C4FE /* SinglyLinkedListController.h */,
+				75FDAF171BE9A9E000A9C4FE /* SinglyLinkedListController.m */,
 			);
-			path = "ObjC-DSA";
+			name = SingleLinkedList;
+			sourceTree = "<group>";
+		};
+		75FDAF0F1BE99CC000A9C4FE /* DoubleLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				75FDAF101BE99CDD00A9C4FE /* DoubleLLNode.h */,
+				75FDAF111BE99CDD00A9C4FE /* DoubleLLNode.m */,
+				75FDAF131BE99CEC00A9C4FE /* DoublyLinkedList.h */,
+				75FDAF141BE99CEC00A9C4FE /* DoublyLinkedList.m */,
+				75FDAF191BE9AB8400A9C4FE /* DoublyLinkedListController.h */,
+				75FDAF1A1BE9AB8400A9C4FE /* DoublyLinkedListController.m */,
+			);
+			name = DoubleLinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +166,10 @@
 			files = (
 				7512BA461BE991C9007D89B9 /* main.m in Sources */,
 				7512BA541BE99216007D89B9 /* SinglyLinkedList.m in Sources */,
+				75FDAF1B1BE9AB8400A9C4FE /* DoublyLinkedListController.m in Sources */,
+				75FDAF181BE9A9E000A9C4FE /* SinglyLinkedListController.m in Sources */,
+				75FDAF151BE99CEC00A9C4FE /* DoublyLinkedList.m in Sources */,
+				75FDAF121BE99CDD00A9C4FE /* DoubleLLNode.m in Sources */,
 				7512BA521BE99216007D89B9 /* LLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +287,7 @@
 				7512BA4B1BE991C9007D89B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
