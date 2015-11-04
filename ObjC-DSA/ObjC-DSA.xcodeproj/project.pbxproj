@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		7512BA421BE991C9007D89B9 /* ObjC-DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjC-DSA"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7512BA451BE991C9007D89B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7512BA451BE991C9007D89B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "ObjC-DSA/main.m"; sourceTree = "<group>"; };
 		7512BA4C1BE99216007D89B9 /* LLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNode.h; sourceTree = SOURCE_ROOT; };
 		7512BA4D1BE99216007D89B9 /* LLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNode.m; sourceTree = SOURCE_ROOT; };
 		7512BA501BE99216007D89B9 /* SinglyLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglyLinkedList.h; sourceTree = SOURCE_ROOT; };
@@ -59,7 +59,9 @@
 		7512BA391BE991C9007D89B9 = {
 			isa = PBXGroup;
 			children = (
-				7512BA441BE991C9007D89B9 /* ObjC-DSA */,
+				7512BA451BE991C9007D89B9 /* main.m */,
+				75FDAF0E1BE99CA600A9C4FE /* SingleLinkedList */,
+				75FDAF0F1BE99CC000A9C4FE /* DoubleLinkedList */,
 				7512BA431BE991C9007D89B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,16 +72,6 @@
 				7512BA421BE991C9007D89B9 /* ObjC-DSA */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7512BA441BE991C9007D89B9 /* ObjC-DSA */ = {
-			isa = PBXGroup;
-			children = (
-				75FDAF0F1BE99CC000A9C4FE /* DoubleLinkedList */,
-				75FDAF0E1BE99CA600A9C4FE /* SingleLinkedList */,
-				7512BA451BE991C9007D89B9 /* main.m */,
-			);
-			path = "ObjC-DSA";
 			sourceTree = "<group>";
 		};
 		75FDAF0E1BE99CA600A9C4FE /* SingleLinkedList */ = {
@@ -93,6 +85,7 @@
 				75FDAF171BE9A9E000A9C4FE /* SinglyLinkedListController.m */,
 			);
 			name = SingleLinkedList;
+			path = "ObjC-DSA";
 			sourceTree = "<group>";
 		};
 		75FDAF0F1BE99CC000A9C4FE /* DoubleLinkedList */ = {
@@ -106,6 +99,7 @@
 				75FDAF1A1BE9AB8400A9C4FE /* DoublyLinkedListController.m */,
 			);
 			name = DoubleLinkedList;
+			path = "ObjC-DSA";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
