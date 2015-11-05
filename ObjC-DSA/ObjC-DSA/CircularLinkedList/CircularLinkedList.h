@@ -21,14 +21,14 @@
  @param head first node of the linked list. If null, the new node would be created with the provided data as a head node.
  @param data of type string for node.
 */
-- (void)insertInFrontLinkedListWithHead:(LLNode *)head andData:(NSString *)data
+- (void)insertInFrontLinkedListWithHead:(LLNode *)head andData:(NSString *)data;
 
 /**
  Inserts a node in the end of the linked list with the data provided and reaaranges the pointers.
  @param head first node of the linked list. Should not be null 
  @param data of type string for node.
  */
-- (void)insertInEndLinkedListWithHead:(LLNode *)head andData:(NSString *)data
+- (void)insertInEndLinkedListWithHead:(LLNode *)head andData:(NSString *)data;
 
 /**
  Deletes the node from the front of the linked list and rearranges the pointers.

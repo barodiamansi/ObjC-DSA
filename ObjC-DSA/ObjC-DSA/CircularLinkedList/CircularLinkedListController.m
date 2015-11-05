@@ -15,8 +15,32 @@
 {
     CircularLinkedList *linkedList = [[CircularLinkedList alloc] init];
     NSUInteger count = 0;
+
+    [linkedList insertInFrontLinkedListWithHead:NULL andData:@"Mansi"];
+    count = [linkedList countLinkedListWithHead:linkedList.head];
     
-    NSLog(@"%@", @"Inside circular linked list");
+    NSLog(@"%lu", (unsigned long)count);
+    
+    [linkedList insertInFrontLinkedListWithHead:linkedList.head andData:@"Mario"];
+    [linkedList traverseLinkedListWithHead:linkedList.head];
+    
+    [linkedList insertInEndLinkedListWithHead:linkedList.head andData:@"Hello World"];
+    [linkedList traverseLinkedListWithHead:linkedList.head];
+    
+    count = [linkedList countLinkedListWithHead:linkedList.head];
+    NSLog(@"%lu", (unsigned long)count);
+    
+    [linkedList deleteFromFrontLinkedListWithHead:linkedList.head];
+    [linkedList traverseLinkedListWithHead:linkedList.head];
+    
+    count = [linkedList countLinkedListWithHead:linkedList.head];
+    NSLog(@"%lu", (unsigned long)count);
+    
+    [linkedList deleteFromEndLinkedListWithHead:linkedList.head];
+    [linkedList traverseLinkedListWithHead:linkedList.head];
+    
+    count = [linkedList countLinkedListWithHead:linkedList.head];
+    NSLog(@"%lu", (unsigned long)count);
 }
 
 @end

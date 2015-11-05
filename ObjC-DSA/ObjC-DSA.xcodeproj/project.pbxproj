@@ -6,6 +6,18 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7587E18C1BEB0113006E01E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E18B1BEB0113006E01E8 /* main.m */; };
+		7587E1911BEB011C006E01E8 /* CircularLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E18E1BEB011C006E01E8 /* CircularLinkedList.m */; };
+		7587E1921BEB011C006E01E8 /* CircularLinkedListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E1901BEB011C006E01E8 /* CircularLinkedListController.m */; };
+		7587E1991BEB0123006E01E8 /* DoubleLLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E1941BEB0123006E01E8 /* DoubleLLNode.m */; };
+		7587E19A1BEB0123006E01E8 /* DoublyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E1961BEB0123006E01E8 /* DoublyLinkedList.m */; };
+		7587E19B1BEB0123006E01E8 /* DoublyLinkedListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E1981BEB0123006E01E8 /* DoublyLinkedListController.m */; };
+		7587E1A21BEB012A006E01E8 /* LLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E19D1BEB012A006E01E8 /* LLNode.m */; };
+		7587E1A31BEB012A006E01E8 /* SinglyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E19F1BEB012A006E01E8 /* SinglyLinkedList.m */; };
+		7587E1A41BEB012A006E01E8 /* SinglyLinkedListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E1A11BEB012A006E01E8 /* SinglyLinkedListController.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		7512BA401BE991C9007D89B9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,7 +32,23 @@
 
 /* Begin PBXFileReference section */
 		7512BA421BE991C9007D89B9 /* ObjC-DSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjC-DSA"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75FDAF1C1BEACFA800A9C4FE /* ObjC-DSA */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ObjC-DSA"; sourceTree = "<group>"; };
+		7587E18B1BEB0113006E01E8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "ObjC-DSA/main.m"; sourceTree = "<group>"; };
+		7587E18D1BEB011C006E01E8 /* CircularLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircularLinkedList.h; path = "ObjC-DSA/CircularLinkedList/CircularLinkedList.h"; sourceTree = "<group>"; };
+		7587E18E1BEB011C006E01E8 /* CircularLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircularLinkedList.m; path = "ObjC-DSA/CircularLinkedList/CircularLinkedList.m"; sourceTree = "<group>"; };
+		7587E18F1BEB011C006E01E8 /* CircularLinkedListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircularLinkedListController.h; path = "ObjC-DSA/CircularLinkedList/CircularLinkedListController.h"; sourceTree = "<group>"; };
+		7587E1901BEB011C006E01E8 /* CircularLinkedListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircularLinkedListController.m; path = "ObjC-DSA/CircularLinkedList/CircularLinkedListController.m"; sourceTree = "<group>"; };
+		7587E1931BEB0123006E01E8 /* DoubleLLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoubleLLNode.h; path = "ObjC-DSA/DoubleLinkedList/DoubleLLNode.h"; sourceTree = "<group>"; };
+		7587E1941BEB0123006E01E8 /* DoubleLLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoubleLLNode.m; path = "ObjC-DSA/DoubleLinkedList/DoubleLLNode.m"; sourceTree = "<group>"; };
+		7587E1951BEB0123006E01E8 /* DoublyLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoublyLinkedList.h; path = "ObjC-DSA/DoubleLinkedList/DoublyLinkedList.h"; sourceTree = "<group>"; };
+		7587E1961BEB0123006E01E8 /* DoublyLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoublyLinkedList.m; path = "ObjC-DSA/DoubleLinkedList/DoublyLinkedList.m"; sourceTree = "<group>"; };
+		7587E1971BEB0123006E01E8 /* DoublyLinkedListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DoublyLinkedListController.h; path = "ObjC-DSA/DoubleLinkedList/DoublyLinkedListController.h"; sourceTree = "<group>"; };
+		7587E1981BEB0123006E01E8 /* DoublyLinkedListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DoublyLinkedListController.m; path = "ObjC-DSA/DoubleLinkedList/DoublyLinkedListController.m"; sourceTree = "<group>"; };
+		7587E19C1BEB012A006E01E8 /* LLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLNode.h; path = "ObjC-DSA/SingleLinkedList/LLNode.h"; sourceTree = "<group>"; };
+		7587E19D1BEB012A006E01E8 /* LLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLNode.m; path = "ObjC-DSA/SingleLinkedList/LLNode.m"; sourceTree = "<group>"; };
+		7587E19E1BEB012A006E01E8 /* SinglyLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SinglyLinkedList.h; path = "ObjC-DSA/SingleLinkedList/SinglyLinkedList.h"; sourceTree = "<group>"; };
+		7587E19F1BEB012A006E01E8 /* SinglyLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SinglyLinkedList.m; path = "ObjC-DSA/SingleLinkedList/SinglyLinkedList.m"; sourceTree = "<group>"; };
+		7587E1A01BEB012A006E01E8 /* SinglyLinkedListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SinglyLinkedListController.h; path = "ObjC-DSA/SingleLinkedList/SinglyLinkedListController.h"; sourceTree = "<group>"; };
+		7587E1A11BEB012A006E01E8 /* SinglyLinkedListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SinglyLinkedListController.m; path = "ObjC-DSA/SingleLinkedList/SinglyLinkedListController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +65,23 @@
 		7512BA391BE991C9007D89B9 = {
 			isa = PBXGroup;
 			children = (
-				75FDAF1C1BEACFA800A9C4FE /* ObjC-DSA */,
+				7587E19C1BEB012A006E01E8 /* LLNode.h */,
+				7587E19D1BEB012A006E01E8 /* LLNode.m */,
+				7587E19E1BEB012A006E01E8 /* SinglyLinkedList.h */,
+				7587E19F1BEB012A006E01E8 /* SinglyLinkedList.m */,
+				7587E1A01BEB012A006E01E8 /* SinglyLinkedListController.h */,
+				7587E1A11BEB012A006E01E8 /* SinglyLinkedListController.m */,
+				7587E18B1BEB0113006E01E8 /* main.m */,
+				7587E1931BEB0123006E01E8 /* DoubleLLNode.h */,
+				7587E1941BEB0123006E01E8 /* DoubleLLNode.m */,
+				7587E1951BEB0123006E01E8 /* DoublyLinkedList.h */,
+				7587E1961BEB0123006E01E8 /* DoublyLinkedList.m */,
+				7587E1971BEB0123006E01E8 /* DoublyLinkedListController.h */,
+				7587E1981BEB0123006E01E8 /* DoublyLinkedListController.m */,
+				7587E18D1BEB011C006E01E8 /* CircularLinkedList.h */,
+				7587E18E1BEB011C006E01E8 /* CircularLinkedList.m */,
+				7587E18F1BEB011C006E01E8 /* CircularLinkedListController.h */,
+				7587E1901BEB011C006E01E8 /* CircularLinkedListController.m */,
 				7512BA431BE991C9007D89B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +150,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7587E18C1BEB0113006E01E8 /* main.m in Sources */,
+				7587E1921BEB011C006E01E8 /* CircularLinkedListController.m in Sources */,
+				7587E19A1BEB0123006E01E8 /* DoublyLinkedList.m in Sources */,
+				7587E1A21BEB012A006E01E8 /* LLNode.m in Sources */,
+				7587E19B1BEB0123006E01E8 /* DoublyLinkedListController.m in Sources */,
+				7587E1A41BEB012A006E01E8 /* SinglyLinkedListController.m in Sources */,
+				7587E1991BEB0123006E01E8 /* DoubleLLNode.m in Sources */,
+				7587E1A31BEB012A006E01E8 /* SinglyLinkedList.m in Sources */,
+				7587E1911BEB011C006E01E8 /* CircularLinkedList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

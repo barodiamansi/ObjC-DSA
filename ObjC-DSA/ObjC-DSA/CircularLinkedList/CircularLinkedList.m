@@ -23,11 +23,12 @@
     else
     {
         LLNode *currentNode = head;
-        LLNode *frontNode = currentNode;
-        while (currentNode != head)
+        LLNode *frontNode = head;
+        
+        do
         {
             currentNode = currentNode.next;
-        }
+        } while (currentNode.next != head);
         
         self.head = frontNode.next;
         currentNode.next = self.head;
@@ -119,7 +120,7 @@
         NSLog(@"%@", [currentNode description]);
         currentNode = currentNode.next;
         
-    } while (currentNode != self.head)
+    } while (currentNode != self.head);
 }
 
 // TODO - Implement a better solution for reverse traverse. 
@@ -148,7 +149,7 @@
         count++;
         currentNode = currentNode.next;
         
-    } while (currentNode != self.head)
+    } while (currentNode != self.head);
     
     return count;
 }
