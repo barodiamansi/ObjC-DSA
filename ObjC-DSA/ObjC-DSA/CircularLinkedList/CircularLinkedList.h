@@ -17,27 +17,27 @@
 @property (nonatomic, strong) LLNode *head;
 
 /**
- Inserts a node with the provided data in linked list and reaaranges the pointers.
+ Inserts a node in front of linked list with the data provided and reaaranges the pointers.
  @param head first node of the linked list. If null, the new node would be created with the provided data as a head node.
  @param data of type string for node.
 */
 - (void)insertInFrontLinkedListWithHead:(LLNode *)head andData:(NSString *)data
 
 /**
- Inserts a node with the provided data in linked list and reaaranges the pointers.
- @param head first node of the linked list. If null, the new node would be created with the provided data as a head node.
+ Inserts a node in the end of the linked list with the data provided and reaaranges the pointers.
+ @param head first node of the linked list. Should not be null 
  @param data of type string for node.
  */
 - (void)insertInEndLinkedListWithHead:(LLNode *)head andData:(NSString *)data
 
 /**
- Deletes the node from the linked list at the given position and rearranges the pointers.
+ Deletes the node from the front of the linked list and rearranges the pointers.
  @param head first node of the linked list. Should not be null.
  */
 - (void)deleteFromFrontLinkedListWithHead:(LLNode *)head;
 
 /**
- Deletes the node from the linked list at the given position and rearranges the pointers.
+ Deletes the node from the end of the linked list and rearranges the pointers.
  @param head first node of the linked list. Should not be null.
  */
 - (void)deleteFromEndLinkedListWithHead:(LLNode *)head;
