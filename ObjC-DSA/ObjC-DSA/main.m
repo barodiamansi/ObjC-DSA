@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "SinglyLinkedListController.h"
 #import "DoublyLinkedListController.h"
+#import "CircularLinkedListController.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -17,6 +18,9 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"%@", @"### Executing doubly linked list operations ###");
         [DoublyLinkedListController controllerForDoublyLinkedList];
+        
+        NSLog(@"%@", @"### Executing circular linked list operations ###");
+        [CircularLinkedListController controllerForCircularLinkedList];
     }
     
     return 0;
