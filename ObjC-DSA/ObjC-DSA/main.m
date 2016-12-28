@@ -10,6 +10,7 @@
 #import "SinglyLinkedListController.h"
 #import "DoublyLinkedListController.h"
 #import "CircularLinkedListController.h"
+#import "StackController.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -21,6 +22,9 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"%@", @"### Executing circular linked list operations ###");
         [CircularLinkedListController controllerForCircularLinkedList];
+        
+        NSLog(@"%@", @"### Executing stack operations ###");
+        [StackController controllerForStack];
     }
     
     return 0;

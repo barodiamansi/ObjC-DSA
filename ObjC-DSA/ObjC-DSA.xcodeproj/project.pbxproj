@@ -16,6 +16,8 @@
 		7587E1A21BEB012A006E01E8 /* LLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E19D1BEB012A006E01E8 /* LLNode.m */; };
 		7587E1A31BEB012A006E01E8 /* SinglyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E19F1BEB012A006E01E8 /* SinglyLinkedList.m */; };
 		7587E1A41BEB012A006E01E8 /* SinglyLinkedListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587E1A11BEB012A006E01E8 /* SinglyLinkedListController.m */; };
+		75D8DBEA1E14407F00E11B22 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DBE91E14407F00E11B22 /* Stack.m */; };
+		75D8DBEE1E144FAE00E11B22 /* StackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D8DBED1E144FAE00E11B22 /* StackController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +51,10 @@
 		7587E19F1BEB012A006E01E8 /* SinglyLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SinglyLinkedList.m; path = "ObjC-DSA/SingleLinkedList/SinglyLinkedList.m"; sourceTree = "<group>"; };
 		7587E1A01BEB012A006E01E8 /* SinglyLinkedListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SinglyLinkedListController.h; path = "ObjC-DSA/SingleLinkedList/SinglyLinkedListController.h"; sourceTree = "<group>"; };
 		7587E1A11BEB012A006E01E8 /* SinglyLinkedListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SinglyLinkedListController.m; path = "ObjC-DSA/SingleLinkedList/SinglyLinkedListController.m"; sourceTree = "<group>"; };
+		75D8DBE91E14407F00E11B22 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		75D8DBEB1E14409F00E11B22 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		75D8DBEC1E144FAE00E11B22 /* StackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackController.h; sourceTree = "<group>"; };
+		75D8DBED1E144FAE00E11B22 /* StackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 		7512BA391BE991C9007D89B9 = {
 			isa = PBXGroup;
 			children = (
+				75D8DBE81E14406200E11B22 /* Stack */,
 				7587E19C1BEB012A006E01E8 /* LLNode.h */,
 				7587E19D1BEB012A006E01E8 /* LLNode.m */,
 				7587E19E1BEB012A006E01E8 /* SinglyLinkedList.h */,
@@ -92,6 +99,17 @@
 				7512BA421BE991C9007D89B9 /* ObjC-DSA */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		75D8DBE81E14406200E11B22 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				75D8DBE91E14407F00E11B22 /* Stack.m */,
+				75D8DBEB1E14409F00E11B22 /* Stack.h */,
+				75D8DBEC1E144FAE00E11B22 /* StackController.h */,
+				75D8DBED1E144FAE00E11B22 /* StackController.m */,
+			);
+			name = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,12 +170,14 @@
 			files = (
 				7587E18C1BEB0113006E01E8 /* main.m in Sources */,
 				7587E1921BEB011C006E01E8 /* CircularLinkedListController.m in Sources */,
+				75D8DBEE1E144FAE00E11B22 /* StackController.m in Sources */,
 				7587E19A1BEB0123006E01E8 /* DoublyLinkedList.m in Sources */,
 				7587E1A21BEB012A006E01E8 /* LLNode.m in Sources */,
 				7587E19B1BEB0123006E01E8 /* DoublyLinkedListController.m in Sources */,
 				7587E1A41BEB012A006E01E8 /* SinglyLinkedListController.m in Sources */,
 				7587E1991BEB0123006E01E8 /* DoubleLLNode.m in Sources */,
 				7587E1A31BEB012A006E01E8 /* SinglyLinkedList.m in Sources */,
+				75D8DBEA1E14407F00E11B22 /* Stack.m in Sources */,
 				7587E1911BEB011C006E01E8 /* CircularLinkedList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
