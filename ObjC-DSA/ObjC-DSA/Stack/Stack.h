@@ -14,7 +14,7 @@
 - (id)initStack;
 
 // Returns the last object on the stack
-- (id)peep;
+- (id)peek;
 
 // Returns YES if stack is empty, else NO
 - (BOOL)isStackEmpty;

@@ -24,7 +24,7 @@
     return self;
 }
 
-- (id)peep {
+- (id)peek {
     return [self.stack lastObject];
 }
 

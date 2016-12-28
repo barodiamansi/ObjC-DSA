@@ -29,8 +29,8 @@
     // Count of number of items in the stack.
     NSLog(@"Number of items in stack is %d", [stackObject stackCount]);
     
-    // Peeping into the stack.
-    NSLog(@"Object on top of stack is %@", [stackObject peep]);
+    // Take a peek into the stack.
+    NSLog(@"Object on top of stack is %@", [stackObject peek]);
     
     // Removing the last item from the stack.
     [stackObject pop];
@@ -39,7 +39,7 @@
     [stackObject printStack];
     
     // Last item of the stack
-    NSLog(@"Object on top of stack is %@", [stackObject peep]);
+    NSLog(@"Object on top of stack is %@", [stackObject peek]);
     
     // Removing items from the stack.
     [stackObject pop];
