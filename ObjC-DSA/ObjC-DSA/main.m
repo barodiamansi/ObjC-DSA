@@ -15,14 +15,14 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-//        NSLog(@"%@", @"### Executing singly linked list operations ###");
-//        [SinglyLinkedListController controllerForSinglyLinkedList];
-//        
-//        NSLog(@"%@", @"### Executing doubly linked list operations ###");
-//        [DoublyLinkedListController controllerForDoublyLinkedList];
-//        
-//        NSLog(@"%@", @"### Executing circular linked list operations ###");
-//        [CircularLinkedListController controllerForCircularLinkedList];
+        NSLog(@"%@", @"### Executing singly linked list operations ###");
+        [SinglyLinkedListController controllerForSinglyLinkedList];
+        
+        NSLog(@"%@", @"### Executing doubly linked list operations ###");
+        [DoublyLinkedListController controllerForDoublyLinkedList];
+        
+        NSLog(@"%@", @"### Executing circular linked list operations ###");
+        [CircularLinkedListController controllerForCircularLinkedList];
         
         NSLog(@"%@", @"### Executing queue operations ###");
         [QueueController controllerForQueue];
