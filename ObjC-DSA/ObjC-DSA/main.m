@@ -10,17 +10,22 @@
 #import "SinglyLinkedListController.h"
 #import "DoublyLinkedListController.h"
 #import "CircularLinkedListController.h"
+#import "QueueController.h"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSLog(@"%@", @"### Executing singly linked list operations ###");
-        [SinglyLinkedListController controllerForSinglyLinkedList];
+//        NSLog(@"%@", @"### Executing singly linked list operations ###");
+//        [SinglyLinkedListController controllerForSinglyLinkedList];
+//        
+//        NSLog(@"%@", @"### Executing doubly linked list operations ###");
+//        [DoublyLinkedListController controllerForDoublyLinkedList];
+//        
+//        NSLog(@"%@", @"### Executing circular linked list operations ###");
+//        [CircularLinkedListController controllerForCircularLinkedList];
         
-        NSLog(@"%@", @"### Executing doubly linked list operations ###");
-        [DoublyLinkedListController controllerForDoublyLinkedList];
-        
-        NSLog(@"%@", @"### Executing circular linked list operations ###");
-        [CircularLinkedListController controllerForCircularLinkedList];
+        NSLog(@"%@", @"### Executing queue operations ###");
+        [QueueController controllerForQueue];
     }
     
     return 0;
