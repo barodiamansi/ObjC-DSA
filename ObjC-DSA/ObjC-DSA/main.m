@@ -10,6 +10,8 @@
 #import "SinglyLinkedListController.h"
 #import "DoublyLinkedListController.h"
 #import "CircularLinkedListController.h"
+#import "QueueController.h"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -21,6 +23,9 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"%@", @"### Executing circular linked list operations ###");
         [CircularLinkedListController controllerForCircularLinkedList];
+        
+        NSLog(@"%@", @"### Executing queue operations ###");
+        [QueueController controllerForQueue];
     }
     
     return 0;
